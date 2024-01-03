@@ -1,0 +1,138 @@
+*{
+	padding: 0;
+	margin: 0 auto;
+}
+li {
+	list-style-type: none;
+}
+img {
+	border: 0;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+a:hover {
+	color: #514FF0;
+	text-decoration: none;
+}
+#wrap {
+	width:100%;
+}
+#wrap #content {
+	width: 80%;
+	clear: both;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-left: 16%;
+	display: inline-block;
+}
+#wrap #content #section1 {
+	width: 20%;
+	float: left;
+	margin-right: 30px;
+	border-radius: 10px;
+	background-color: white;
+	border: thin solid #B9B9B9;
+	height: 0px;
+	padding-bottom: 25%;
+}
+#wrap #content #section2 {
+	width: 20%;
+	float: left;
+	margin-right: 30px;
+	border-radius: 10px;
+	background-color: white;
+	border: thin solid #B9B9B9;
+	height: 0px;
+	padding-bottom: 25%;
+}
+#wrap #content #section3 {
+	width: 20%;
+	float: left;
+	border-radius: 10px;
+	background-color: white;
+	border: thin solid #B9B9B9;
+	height: 0px;
+	padding-bottom: 25%;
+}
+#wrap #jeonsi{
+	position: absolute;
+	text-align: center;
+	width: 50%;
+	margin-bottom: 100px;
+	font-size: 25px;
+	display: block;
+	line-height: 0px;
+	padding-left: 144px;
+}
+#wrap #festi{
+	position: absolute;
+	text-align: center;
+	width: 50%;
+	margin-bottom: 100px;
+	font-size: 25px;
+	display: block;
+	line-height: 0px;
+	padding-left: 144px;
+}
+#section ul li {
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+#wrap #content_wrap {
+	border: 1px solid #cccccc;
+}
+
+#wrap #content_wrap #content {
+	padding: 10px;
+}
+#content_wrap #content h2 {
+	border-bottom: 1px solid #cccccc;
+	margin-bottom: 69px;
+	margin-top: 77px;
+}
+#wrap footer {
+	width:90%;
+	height: 100px;
+	text-align: center;
+	font-size: 1.5em;
+	border: 1px solid #CCCCCC;
+	font-weight: bold;
+	line-height: 100px;
+}
+#wrap footer h6{
+float:left;
+margin-left:30px;
+}
+#wrap footer a{
+float:right;
+margin-right:30px;
+font-size:13px;
+}
+.side {
+	position: relative;
+	float: right;
+		padding-right: 108px;
+}
+#content .side a {
+	font-weight: bold;
+}
+#wrap #content #sec-content1 {
+	float: left;
+	line-height: 30px;
+	padding-top: 43px;
+	margin-right: 50px;
+	width: 20%;
+}
+	#wrap #content #sec-content2 {
+	float: left;
+	line-height: 30px;
+	padding-top: 43px;
+	width: 20%;
+}
+#wrap #page {
+	left: 40%;
+	position: absolute;
+}

@@ -1,0 +1,217 @@
+*{
+	padding: 0;
+	margin: 0 auto;
+}
+li {
+	list-style-type: none;
+}
+img {
+	border: 0;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+#wrap {
+	width:100%;
+}
+#wrap #content {
+	width: 80%;
+	clear: both;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-left: 12%;
+}
+#wrap #contentNav{
+   margin-bottom: 20px;
+   font-size: 26px;
+   margin-left: 10px;
+   margin-top:14px;
+}
+#section {
+  width: 24%;
+  height: 500px;
+  float: left;
+  margin-right: 80px;
+  margin-bottom: 70px;
+}
+#section span {
+font-size: 17px;
+}
+#contentNav #p {
+font-size:17px; 
+color:gray;
+}
+#sectionPic {
+  width: 99%;
+  height: 0;
+  line-height: 80px;
+  border: thin solid #dedede;
+  border-radius: 4px;
+  float: left;
+  margin-bottom: 14px;
+  padding-bottom: 140%;
+}
+#wrap #content #section3 {
+	width: 20%;
+	float: left;
+	border-radius: 10px;
+	background-color: white;
+	border: thin solid #B9B9B9;
+	height: 0px;
+	padding-bottom: 25%;
+}
+#wrap #hot {
+	position: absolute;
+	text-align: center;
+	width: 50%;
+	margin-bottom: 77px;
+	font-size: 30px;
+	display: block;
+	line-height: 0px;
+	padding-left: 144px;
+}
+#wrap #jeonsi{
+	position: absolute;
+	text-align: center;
+	width: 50%;
+	margin-bottom: 100px;
+	font-size: 25px;
+	display: block;
+	line-height: 0px;
+	padding-left: 144px;
+}
+#wrap #chukje{
+	position: absolute;
+	text-align: center;
+	width: 50%;
+	margin-bottom: 100px;
+	font-size: 25px;
+	display: block;
+	line-height: 0px;
+	padding-left: 144px;
+}
+#section ul li {
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+#wrap #content_wrap {
+	border: 1px solid #cccccc;
+}
+
+#wrap #content_wrap #content {
+	padding: 10px;
+}
+#content_wrap #content h2 {
+	border-bottom: 1px solid #cccccc;
+	margin-bottom: 69px;
+	margin-top: 77px;
+}
+#wrap footer {
+	width:90%;
+	height: 100px;
+	text-align: center;
+	font-size: 1.5em;
+	border: 1px solid #CCCCCC;
+	font-weight: bold;
+	line-height: 100px;
+}
+
+#wrap footer h6{
+	float:left;
+	margin-left:30px;
+}
+
+#wrap footer a{
+	float:right;
+	margin-right:30px;
+	font-size:13px;
+}
+@media screen and (max-width: 1100px) {
+	#section {
+	width: 24%;
+	height: 500px;
+	float: left;
+	margin-right:60px;
+	margin-bottom: 70px;
+	}
+	#section span {
+	font-size: 14px;
+	}
+	#section h2 {
+	font-size:18px;
+	}
+}
+@media screen and (max-width: 900px) {
+	#section {
+	width: 24%;
+	height: 500px;
+	float: left;
+	margin-right:50px;
+	margin-bottom: 70px;
+	}
+	#section span {
+	font-size: 13px;
+	}
+	#section h2 {
+	font-size:16px;
+	}
+	#wrap #contentNav{
+	margin-bottom: 20px;
+	font-size: 24px;
+	margin-left: 10px;
+	margin-top:14px;
+	}
+	#contentNav #p {
+	font-size:15px;
+	}
+}
+@media screen and (max-width: 750px) {
+	#section {
+	width: 24%;
+	height: 500px;
+	float: left;
+	margin-right:30px;
+	margin-bottom: 70px;
+	}
+	#section span {
+	font-size: 12px;
+	}
+	#section h2 {
+	font-size:14px;
+	}
+	#wrap #contentNav{
+	margin-bottom: 20px;
+	font-size: 24px;
+	margin-left: 10px;
+	margin-top:14px;
+	}
+	#contentNav #p {
+	font-size:15px;
+	}
+}
+@media screen and (max-width: 700px) {
+	#section {
+	width: 26%;
+	height: 500px;
+	float: left;
+	margin-right:30px;
+	margin-bottom: 30px;
+	}
+	#section span {
+	font-size: 10px;
+	}
+	#section h2 {
+	font-size:12px;
+	}
+	#wrap #contentNav{
+	margin-bottom: 20px;
+	font-size: 22px;
+	margin-left: 10px;
+	margin-top:14px;
+	}
+	#contentNav #p {
+	font-size:14px;
+	}
+}

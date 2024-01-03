@@ -1,0 +1,155 @@
+*{
+	padding: 0;
+	margin: 0 auto;
+}
+li {
+	list-style-type: none;
+}
+img {
+	border: 0;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+#wrap {
+	width:100%;
+}
+input {
+	border:none;
+	outline:none;
+}
+input:focus {
+}
+.pwd {
+	border-bottom: 1px solid #dedede;
+	outline:none;
+}
+.pwd:focus {
+	border-bottom: 1px solid #514FF0;
+}
+textarea:focus{
+	outline: none;
+}
+#wrap #content {
+	width: 60%;
+	clear: both;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#wrap #content #section1 {
+	width: 20%;
+	float: left;
+	margin-right: 161px;
+	border-radius: 10px;
+	background-color: white;
+	border: thin solid #B9B9B9;
+	height: 0px;
+	padding-bottom: 25%;
+}
+#wrap #content #section2 {
+	width: 20%;
+	float: left;
+	margin-right: 161px;
+	border-radius: 10px;
+	background-color: white;
+	border: thin solid #B9B9B9;
+	height: 0px;
+	padding-bottom: 25%;
+}
+#wrap #content #section3 {
+	width: 20%;
+	float: left;
+	border-radius: 10px;
+	background-color: white;
+	border: thin solid #B9B9B9;
+	height: 0px;
+	padding-bottom: 25%;
+}
+#wrap #gesipan {
+	position: absolute;
+	text-align: center;
+	width: 60%;
+	margin-bottom: 77px;
+	font-size: 30px;
+	display: block;
+	line-height: 0px;
+	padding-left: 144px;
+}
+#content #note1 {
+	margin-left: 50px;
+}
+#wrap #jeonsi{
+	position: absolute;
+	text-align: center;
+	width: 50%;
+	margin-bottom: 100px;
+	font-size: 25px;
+	display: block;
+	line-height: 0px;
+	padding-left: 144px;
+}
+#wrap #chukje{
+	position: absolute;
+	text-align: center;
+	width: 50%;
+	margin-bottom: 100px;
+	font-size: 25px;
+	display: block;
+	line-height: 0px;
+	padding-left: 144px;
+}
+#section ul li {
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+#wrap #content_wrap {
+	border: 1px solid #cccccc;
+}
+
+#wrap #content_wrap #content {
+	padding: 10px;
+}
+#content_wrap #content h2 {
+	border-bottom: 1px solid #cccccc;
+	margin-bottom: 69px;
+	margin-top: 77px;
+}
+#wrap #content #button {
+	width: 110px;
+	border: 2px solid white;
+	border-radius: 8px;
+	background-color: #514FF0;
+	font-size: 18px;
+	color: #CECECE;
+	float: right;
+}
+#wrap #page {
+	left: 40%;
+	position: absolute;
+}
+@media screen and (max-width: 1200px) {
+	#wrap #content {
+	width: 80%;
+	clear: both;
+	margin: 0 auto;
+	overflow: hidden;
+	}
+}
+@media screen and (max-width: 1000px) {
+	#wrap #content {
+	width: 90%;
+	clear: both;
+	margin: 0 auto;
+	overflow: hidden;
+	}
+}
+@media screen and (max-width: 800px) {
+	#wrap #content {
+	width: 100%;
+	clear: both;
+	margin: 0 auto;
+	overflow: hidden;
+	}
+}

@@ -1,0 +1,151 @@
+*{
+	padding: 0;
+	margin: 0 auto;
+}
+li {
+	list-style-type: none;
+}
+img {
+	border: 0;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+#wrap {
+	width:100%;
+}
+#wrap #content {
+	width: 80%;
+	clear: both;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#wrap #contentNav{
+   margin-bottom: 33px;
+   font-size: 26px;
+   margin-left: 8%;
+   margin-top:14px;
+}
+#wrap #gesipan {
+	position: absolute;
+	text-align: center;
+	width: 60%;
+	margin-bottom: 77px;
+	font-size: 30px;
+	display: block;
+	line-height: 0px;
+	padding-left: 144px;
+}
+#content #note1 {
+	margin-left: 50px;
+}
+#section ul li {
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+#wrap #content_wrap {
+	border: 1px solid #cccccc;
+}
+
+#wrap #content_wrap #content {
+	padding: 10px;
+}
+#wrap #content #button {
+	width: 110px;
+	height:46px;
+	border: 1px solid #514FF0;
+	border-radius: 8px;
+	background-color: #514FF0;
+	font-size: 18px;
+	color: white;
+	float: left;
+	padding:10px;
+	font-family: "Pretendard Variable", sans-serif;
+	word-break: keep-all;
+	position: absolute;
+	top:280px;
+	left:77%;
+}
+#wrap #page {
+	left: 40%;
+	position: absolute;
+}
+td {
+	font-size:16px;
+}
+#tdpadding {
+	padding: 0px 40px;
+}
+
+#pagination a {
+	float:left;
+	padding: 8px 16px;
+	text-decoration:none;
+	border: 1px solid #ddd;
+	color:black;
+	display: inline-block;
+}
+#pagination a.active {
+	background-color:#514FF0;
+	border: 1px solid #514FF0;
+	color:white;
+}
+
+#pagination a:hover:not(.active) {
+	background-color:#ddd;
+}
+
+#pagination a:first-child {
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+}
+
+#pagination a:last-child {
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+}
+@media screen and (max-width: 1100px) {
+	td {
+	font-size: 14px;
+	}
+	#tdpadding {
+	padding: 0px 20px;
+	}
+}
+@media screen and (max-width: 800px) {
+	td {
+	font-size: 12px;
+	}
+	#tdpadding {
+	padding: 0px 10px;
+	}
+	#wrap #content #button {	
+	top:280px;
+	left:76%;
+	}
+}
+@media screen and (max-width: 600px) {
+	td {
+	font-size: 10px;
+	}
+	#tdpadding {
+	padding: 0px 4px;
+	}
+	#wrap #content #button {	
+	top:280px;
+	left:74%;	
+	font-size:14px;
+	width:90px;
+	}
+	#wrap #contentNav{
+	margin-bottom: 20px;
+	font-size: 22px;
+	margin-left: 10px;
+	margin-top:14px;
+	}
+	#contentNav #p {
+	font-size:14px;
+	}
+}
